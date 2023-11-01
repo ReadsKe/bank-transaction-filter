@@ -97,7 +97,12 @@
       "category": "Food",
       "amount": "3000",
       "id": 14
+    },
+    {
+      "description": "samuel",
+      "category": "pay rent",
+      "amount": "100",
+      "id": 15
     }
-    
   ]
 }

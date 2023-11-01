@@ -17,7 +17,6 @@ You can filter transactions by typing into the search bar. Only transactions wit
 2. Enter the transaction and it will filter automatically 
 
 ## Known Bugs
-The app does not reload when a new transaction is added. 
 No other no known bugs
 
 ## Technologies used

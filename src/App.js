@@ -19,19 +19,19 @@ import DataFetch from './components/datafetch';
   );
 
   return (
-    <div>
+    <div >
         <h1>Transaction Tracking App</h1>
         <div>
           <TransactionForm addTransaction={addTransaction} />
         </div>
 
-          <div className='container'>
+          <div className='container' >
           <Search search={search} setSearch={setSearch} /> {
             loading
           }
           </div>
           
-        <div>
+        <div className=' container col-md-6'>
         <h3>Transaction List</h3>
         <TransactionTable transactions={filteredTransactions} />
         </div>

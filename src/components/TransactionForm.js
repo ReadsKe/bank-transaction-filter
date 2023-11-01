@@ -28,11 +28,11 @@ export default function TransactionForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" name="description" placeholder="Enter Description" value={formData.description} onChange={handleInputChange} />
-      <input type="text" name="category"  placeholder="Category" value={formData.category}  onChange={handleInputChange} />
-      <input type="number" name="amount" placeholder="Amount" value={formData.amount} onChange={handleInputChange} />
-      <button type="submit">Add Transaction</button>
+    <form >
+      <input type="text" name="description" placeholder="Enter Description" required value={formData.description} onChange={handleInputChange} />
+      <input type="text" name="category"  placeholder="Category" required value={formData.category}  onChange={handleInputChange} />
+      <input type="number" name="amount" placeholder="Amount" required value={formData.amount} onChange={handleInputChange} />
+      <button type="submit" className='btn btn-success' onSubmit={handleSubmit}>Add Transaction</button>
     </form>
   );
 
